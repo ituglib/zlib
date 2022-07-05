@@ -27,10 +27,6 @@
 #endif
 #include <fcntl.h>
 
-#ifdef __TANDEM
-#include <floss.h(floss_read,floss_write)>
-#endif
-
 #ifdef _WIN32
 #  include <stddef.h>
 #endif
